@@ -1,0 +1,25 @@
+{
+  "name": "marketing-page",
+  "version": "1.0.0",
+  "description": "A re-usable front end template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavenousPett/marketing-page.git"
+  },
+  "author": "Richard Pett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RavenousPett/marketing-page/issues"
+  },
+  "homepage": "https://github.com/RavenousPett/marketing-page#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
