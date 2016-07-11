@@ -7,6 +7,10 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.css$/,
+        loader: 'style!css?sourceMap'
+      },
+      {
         test: /\.scss$/,
         loader: 'style-loader!css-loader!sass-loader'
       },
@@ -15,11 +19,8 @@ module.exports = {
         loader: 'url-loader'
       },
       { test: /bootstrap\/js\//, loader: 'imports?jQuery=jquery' },
-      { test: /\.woff2$/,   loader: "url?limit=10000&minetype=application/font-woff" },
-      { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,   loader: "url?limit=10000&minetype=application/font-woff" },
-      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&minetype=application/octet-stream" },
-      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,    loader: "file" },
-      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&minetype=image/svg+xml" }
+      { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&minetype=application/font-woff" },
+      { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" }
     ]
   }
 }
