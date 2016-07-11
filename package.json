@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/RavenousPett/marketing-page#readme",
   "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1"
   },
   "dependencies": {
