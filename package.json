@@ -28,6 +28,8 @@
   "dependencies": {
     "font-awesome": "^4.6.3",
     "font-awesome-sass-loader": "^1.0.1",
-    "jquery": "^3.1.0"
+    "jquery": "^3.1.0",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0"
   }
 }

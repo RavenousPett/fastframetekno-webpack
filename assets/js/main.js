@@ -4,5 +4,10 @@ require('bootstrap-loader');
 // Custom styles
 require('../css/style.scss');
 
-var $ = require('jquery');
-$('#target').html('hello the world!');
+// require('jquery');
+require('jquery.easing');
+// $('#target').html('hello the world!');
+
+require('magnific-popup');
+
+require('./creative.js');
