@@ -4,10 +4,12 @@ require('bootstrap-loader');
 // Custom styles
 require('../css/style.scss');
 
-// require('jquery');
+// Vendor JS
 require('jquery.easing');
-// $('#target').html('hello the world!');
 
 require('magnific-popup');
 
+// require('scrollreveal');
+
+// Custom JS
 require('./creative.js');
