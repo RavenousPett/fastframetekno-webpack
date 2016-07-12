@@ -4,12 +4,11 @@ require('bootstrap-loader');
 // Custom styles
 require('../css/style.scss');
 
-// Vendor JS
+// Vendor JS + CSS
 require('jquery.easing');
 
 require('magnific-popup');
-
-// require('scrollreveal');
+require('../vendor/magnific-popup/magnific-popup.css')
 
 // Custom JS
 require('./creative.js');
