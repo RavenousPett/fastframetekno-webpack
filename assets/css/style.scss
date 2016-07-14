@@ -61,6 +61,21 @@ aside {
 .no-padding {
   padding: 0;
 }
+
+// Navigation
+#mainNav{
+  background-color: #EA5B0C;
+  border: none;
+}
+
+a.nav.telephone{
+  position: absolute;
+  top: 17px;
+  left: 155px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -94,17 +109,22 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #FFFFFF;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #FFFFFF !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
+#fastframetekno-logo{
+  margin-top: -6px;
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -139,7 +159,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    // color: #222222;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -155,7 +175,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/fastframetekno.jpg');
   text-align: center;
   color: white;
 }
