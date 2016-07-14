@@ -134,6 +134,25 @@ img.about-us.fast-frame-icon{
   margin-bottom: 30px;
 }
 
+// -- Background Image Section -- //
+
+section.bg-image{
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/fastframetekno.jpg');
+  text-align: center;
+  color: white;
+  h3{
+    line-height: 40px;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -193,23 +212,29 @@ header .header-content {
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+  img.banner-image{
+    margin: 0 auto;
+  }
 }
-header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
+header .header-content .header-content-inner{
+  h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  hr {
+    margin: 30px auto;
+  }
+  p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
 }
-header .header-content .header-content-inner hr {
-  margin: 30px auto;
-}
-header .header-content .header-content-inner p {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 1);
-  font-size: 16px;
-  margin-bottom: 50px;
-}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
