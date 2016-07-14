@@ -153,6 +153,20 @@ section.bg-image{
   }
 }
 
+// -- Services -- //
+
+section#services{
+  ul{
+    text-align: left;
+    color: #777777;
+    padding-left: 25px;
+    margin-top: 20px;
+    li{
+      padding-bottom: 10px;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
