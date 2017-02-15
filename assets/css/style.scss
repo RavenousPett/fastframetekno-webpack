@@ -68,6 +68,12 @@ aside {
 .no-margin {
   margin: 0;
 }
+.pad-top-med{
+    padding-top: 30px;
+}
+.pad-bottom-med{
+    padding-bottom: 30px;
+}
 
 // -- Navigation -- //
 #mainNav{
@@ -171,6 +177,19 @@ section#services{
   .icon-wrap{
     height: 190px;
   }
+}
+
+// -- Contact Us Footer -- //
+
+#contact-us{
+    background-color: #042B60;
+    color: #fff;
+    .address{
+        margin-top: 40px;
+        p{
+            font-size: 14px;
+        }
+    }
 }
 
 @media (min-width: 768px) {
