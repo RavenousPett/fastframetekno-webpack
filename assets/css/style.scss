@@ -190,6 +190,52 @@ section#services{
             font-size: 14px;
         }
     }
+    .social-icons{
+        padding-top: 30px;
+        a{
+            padding-right: 15px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#contact-form{
+    .form-control{
+        border-radius: 0px;
+    }
+
+    button{
+        border-radius: 0px;
+        border: 1px solid #fff;
+        background-color: #042B60;
+        color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    input{
+        background-color: #042B60;
+    }
+
+    // Changes the placeholder text colour
+    input::-webkit-input-placeholder {
+        color: #fff !important;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+        color: #fff !important;
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+        color: #fff !important;
+    }
+
+    input:-ms-input-placeholder {
+        color: #fff !important;
+    }
+
 }
 
 @media (min-width: 768px) {
