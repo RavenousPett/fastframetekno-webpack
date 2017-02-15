@@ -65,6 +65,9 @@ aside {
 .no-padding {
   padding: 0;
 }
+.no-margin {
+  margin: 0;
+}
 
 // -- Navigation -- //
 #mainNav{
@@ -297,8 +300,10 @@ header .header-content .header-content-inner{
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
   margin: 0 auto;
+  img{
+      width: 100%;
+  }
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
