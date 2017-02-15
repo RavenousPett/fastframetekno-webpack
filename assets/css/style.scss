@@ -309,7 +309,7 @@ header .header-content .header-content-inner{
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -326,17 +326,29 @@ header .header-content .header-content-inner{
   top: 50%;
   transform: translateY(-50%);
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{
+    margin-bottom: 20px;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
+  ul{
+      list-style-type:none;
+      font-size: 14px;
+      li{
+          margin-bottom: 13px;
+      }
+  }
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
   font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
@@ -346,10 +358,10 @@ header .header-content .header-content-inner{
   outline: none;
 }
 @media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 16px;
   }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
     font-size: 22px;
   }
 }
