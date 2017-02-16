@@ -68,6 +68,12 @@ aside {
 .no-margin {
   margin: 0;
 }
+.margin-top-med{
+    margin-top: 30px;
+}
+.margin-bottom-med{
+    margin-bottom: 30px;
+}
 .pad-top-med{
     padding-top: 30px;
 }
@@ -233,6 +239,10 @@ section#services{
         color: #fff !important;
     }
 
+}
+
+#foot-end{
+    border-top: 1px solid #1D4070;
 }
 
 @media (min-width: 768px) {
